@@ -1,7 +1,26 @@
 aid: theker
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theker.png
 name: Theker
-description: 'Theker is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Theker (THEKER Robotics) is a Barcelona-based robotics and artificial intelligence
+  company whose stated mission is "solving 100% of physical work" — building humanoid and
+  physical-AI systems it frames as "a power beyond human" and "the next frontier of robotics
+  and intelligence." The company is at a stealth stage: its public site is a landing page and
+  careers portal with product details deliberately withheld ("Details remain secured"). Its
+  public GitHub organization (THEKER Robotics, Spain) works in the physical-AI/ROS 2 stack —
+  forks of the ZED ROS 2 wrapper, NVIDIA cuRobo CUDA motion planning, and Meta SAM 3 perception.
+  Backed by CRV. No public developer API, documentation, or SDK is published yet; this profile
+  captures its identity and public surface pending a developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/theker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Robotics
+- Artificial Intelligence
+- Humanoid Robots
+- Physical AI
+- Automation
+- ROS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.theker.ai/
+- type: GitHubOrganization
+  url: https://github.com/theker
+- type: PrivacyPolicy
+  url: https://www.theker.ai/politica-de-privacidad
+- type: TermsOfService
+  url: https://www.theker.ai/aviso-legal
+- type: DomainSecurity
+  url: security/theker-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
